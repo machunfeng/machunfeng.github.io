@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[hihao]]></title>
-    <url>%2F2018%2F10%2F07%2Fhihao%2F</url>
-    <content type="text"><![CDATA[lalallahexo]]></content>
+    <title><![CDATA[Markdown学习笔记]]></title>
+    <url>%2F2018%2F10%2F07%2FMarkdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[Markdown是什么 与Word类似用来编写文档,只是Word编写完后还需要格式化文档如添加粗体组织结构等,而Markdown使用纯文本格式编写文档,也就是说编写和格式化文档一气呵成,无需再次组织.好处是简单方便,坏处是新手需要记住一些语法,一开始不习惯很容易放弃. 在线 Markdown 编辑器一边学习Markdown语法一边在线练习 Markdown 编辑器 Markdown语法(通用)标题用 # # 一级标题# 二级标题## 三级标题### 四级标题#### 五级标题##### 六级标题 结果 一级标题二级标题三级标题四级标题五级标题六级标题 换行 在文本中输入的换行会从最终生成的结果中删除，浏览器会根据可用空间自动换行。如果想强迫换行，可以在行尾插入至少两个空格,或者使用断行标签\. 引用用 &gt; > 区块引用>&gt; 嵌套引用 结果 区块引用 嵌套引用 强调用*或者_ *斜体*，_斜体_**粗体**，_粗体_ 结果 斜体，_斜体_粗体，粗体 列表用·、+、-、数字加. -（+） 第一项 -（+） 第二项 - （+*）第三项 1 . 第一项2 . 第二项3 . 第三项 结果 第一项 第二项 第三项 第一项 第二项 第三项 链接用[链接文字](链接地址) [Markdown](http://zh.wikipedia.com/wiki/Markdown) 结果 Markdown 图片用![Foo](url) 分割线用三个或以上*，-或_。 *** 结果 反斜杠\用在符号前面,使符号成为普通符号。]]></content>
       <tags>
-        <tag>go</tag>
-        <tag>to</tag>
-        <tag>yeshd</tag>
+        <tag>Markdown</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F10%2F07%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
