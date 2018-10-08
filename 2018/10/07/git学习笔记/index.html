@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="git是什么 git是一个分布式版本控制系统,简单说就是追踪恢复到每一个文件代码的修改点,使你不容易丢失你的数据信息,它最强大的地方就是它的合并追踪能力.由于概念太多了,这里主要介绍我学习git的一些有用的资料.    教程资料 Pro Git廖雪峰的Git教程  git命令">
+<meta name="description" content="git是什么 git是一个分布式版本控制系统,简单说就是追踪恢复到每一个文件代码的修改点,使你不容易丢失你的数据信息,它最强大的地方就是它的合并追踪能力.由于概念太多了,这里主要介绍我学习git的一些有用的资料.    教程资料 Pro Git廖雪峰的Git教程  git命令配置 $ git config –global user.name “your name”$ git config –glo">
 <meta name="keywords" content="git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git学习笔记">
 <meta property="og:url" content="http://yoursite.com/2018/10/07/git学习笔记/index.html">
 <meta property="og:site_name" content="Machunfeng&#39;s blog">
-<meta property="og:description" content="git是什么 git是一个分布式版本控制系统,简单说就是追踪恢复到每一个文件代码的修改点,使你不容易丢失你的数据信息,它最强大的地方就是它的合并追踪能力.由于概念太多了,这里主要介绍我学习git的一些有用的资料.    教程资料 Pro Git廖雪峰的Git教程  git命令">
+<meta property="og:description" content="git是什么 git是一个分布式版本控制系统,简单说就是追踪恢复到每一个文件代码的修改点,使你不容易丢失你的数据信息,它最强大的地方就是它的合并追踪能力.由于概念太多了,这里主要介绍我学习git的一些有用的资料.    教程资料 Pro Git廖雪峰的Git教程  git命令配置 $ git config –global user.name “your name”$ git config –glo">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-07T15:46:13.024Z">
+<meta property="og:updated_time" content="2018-10-08T09:04:32.934Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git学习笔记">
-<meta name="twitter:description" content="git是什么 git是一个分布式版本控制系统,简单说就是追踪恢复到每一个文件代码的修改点,使你不容易丢失你的数据信息,它最强大的地方就是它的合并追踪能力.由于概念太多了,这里主要介绍我学习git的一些有用的资料.    教程资料 Pro Git廖雪峰的Git教程  git命令">
+<meta name="twitter:description" content="git是什么 git是一个分布式版本控制系统,简单说就是追踪恢复到每一个文件代码的修改点,使你不容易丢失你的数据信息,它最强大的地方就是它的合并追踪能力.由于概念太多了,这里主要介绍我学习git的一些有用的资料.    教程资料 Pro Git廖雪峰的Git教程  git命令配置 $ git config –global user.name “your name”$ git config –glo">
 
 
 
@@ -391,7 +391,46 @@
 <h2 id="教程资料"><a href="#教程资料" class="headerlink" title="教程资料"></a><strong>教程资料</strong></h2><blockquote>
 <p><a href="https://git-scm.com/book/zh/v2" target="_blank" rel="noopener">Pro Git</a><br><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="noopener">廖雪峰的Git教程</a></p>
 </blockquote>
-<h2 id="git命令"><a href="#git命令" class="headerlink" title="git命令"></a><strong>git命令</strong></h2>
+<h2 id="git命令"><a href="#git命令" class="headerlink" title="git命令"></a><strong>git命令</strong></h2><h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a><strong>配置</strong></h3><blockquote>
+<p>$ git config –global user.name “your name”<br>$ git config –global user.email <a href="mailto:your-email@example.com" target="_blank" rel="noopener">your-email@example.com</a></p>
+</blockquote>
+<h3 id="初始化仓库"><a href="#初始化仓库" class="headerlink" title="初始化仓库"></a><strong>初始化仓库</strong></h3><blockquote>
+<p>$ git init</p>
+</blockquote>
+<h3 id="克隆仓库"><a href="#克隆仓库" class="headerlink" title="克隆仓库"></a><strong>克隆仓库</strong></h3><blockquote>
+<p>git clone [url] </p>
+</blockquote>
+<h3 id="跟踪新文件"><a href="#跟踪新文件" class="headerlink" title="跟踪新文件"></a><strong>跟踪新文件</strong></h3><blockquote>
+<p>git add [files]</p>
+</blockquote>
+<h3 id="提交更新"><a href="#提交更新" class="headerlink" title="提交更新"></a><strong>提交更新</strong></h3><blockquote>
+<p>git commit</p>
+</blockquote>
+<h3 id="移除文件"><a href="#移除文件" class="headerlink" title="移除文件"></a><strong>移除文件</strong></h3><blockquote>
+<p>git rm</p>
+</blockquote>
+<h3 id="查看远程仓库"><a href="#查看远程仓库" class="headerlink" title="查看远程仓库"></a><strong>查看远程仓库</strong></h3><blockquote>
+<p>git remote</p>
+</blockquote>
+<h3 id="添加远程仓库"><a href="#添加远程仓库" class="headerlink" title="添加远程仓库"></a><strong>添加远程仓库</strong></h3><blockquote>
+<p>git remote add \<shortname> \<url></url></shortname></p>
+</blockquote>
+<h3 id="从远程仓库中抓取与拉取"><a href="#从远程仓库中抓取与拉取" class="headerlink" title="从远程仓库中抓取与拉取"></a><strong>从远程仓库中抓取与拉取</strong></h3><blockquote>
+<p>git fetch [remote-name]</p>
+</blockquote>
+<h3 id="推送到远程仓库"><a href="#推送到远程仓库" class="headerlink" title="推送到远程仓库"></a><strong>推送到远程仓库</strong></h3><blockquote>
+<p>git push [remote-name] [branch name]</p>
+</blockquote>
+<h3 id="分支创建"><a href="#分支创建" class="headerlink" title="分支创建"></a><strong>分支创建</strong></h3><blockquote>
+<p>git branch [name]</p>
+</blockquote>
+<h3 id="分支切换"><a href="#分支切换" class="headerlink" title="分支切换"></a><strong>分支切换</strong></h3><blockquote>
+<p>git checkout [name]</p>
+</blockquote>
+<h3 id="分支的合并"><a href="#分支的合并" class="headerlink" title="分支的合并"></a><strong>分支的合并</strong></h3><blockquote>
+<p>git merge [name]</p>
+</blockquote>
+
       
     </div>
     
@@ -586,7 +625,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#git是什么"><span class="nav-number">1.</span> <span class="nav-text">git是什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#教程资料"><span class="nav-number">2.</span> <span class="nav-text">教程资料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git命令"><span class="nav-number">3.</span> <span class="nav-text">git命令</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#git是什么"><span class="nav-number">1.</span> <span class="nav-text">git是什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#教程资料"><span class="nav-number">2.</span> <span class="nav-text">教程资料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git命令"><span class="nav-number">3.</span> <span class="nav-text">git命令</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#配置"><span class="nav-number">3.1.</span> <span class="nav-text">配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#初始化仓库"><span class="nav-number">3.2.</span> <span class="nav-text">初始化仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#克隆仓库"><span class="nav-number">3.3.</span> <span class="nav-text">克隆仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#跟踪新文件"><span class="nav-number">3.4.</span> <span class="nav-text">跟踪新文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#提交更新"><span class="nav-number">3.5.</span> <span class="nav-text">提交更新</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#移除文件"><span class="nav-number">3.6.</span> <span class="nav-text">移除文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#查看远程仓库"><span class="nav-number">3.7.</span> <span class="nav-text">查看远程仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加远程仓库"><span class="nav-number">3.8.</span> <span class="nav-text">添加远程仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#从远程仓库中抓取与拉取"><span class="nav-number">3.9.</span> <span class="nav-text">从远程仓库中抓取与拉取</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#推送到远程仓库"><span class="nav-number">3.10.</span> <span class="nav-text">推送到远程仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分支创建"><span class="nav-number">3.11.</span> <span class="nav-text">分支创建</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分支切换"><span class="nav-number">3.12.</span> <span class="nav-text">分支切换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分支的合并"><span class="nav-number">3.13.</span> <span class="nav-text">分支的合并</span></a></li></ol></li></ol></div>
             
 
           </div>
